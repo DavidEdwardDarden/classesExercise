@@ -45,7 +45,7 @@ public void NewEmployeeList()
         {
             foreach (Employee item in employee)
             {
-                Console.WriteLine($"{item.FirstName} {item.LastName} works for for this company as {item.Title} since {item.StartDate.ToShortDateString()}.");
+                Console.WriteLine($"{item.FirstName} {item.LastName} works for for BusinessCompany as {item.Title} since {item.StartDate.ToShortDateString()}.");
             }
         }
 
